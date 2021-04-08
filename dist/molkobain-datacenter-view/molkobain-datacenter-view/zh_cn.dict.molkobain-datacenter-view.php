@@ -14,7 +14,7 @@ $aMolkobainThesaurus = array_merge($aMolkobainThesaurus, [
 	'Class/Attribute:nb_u' => '高度',
 	'Class/Attribute:nb_u+' => 'Height in units (U) of %1$s',
 	'Class/Attribute:position_v' => '位置',
-	'Class/Attribute:position_v+/Variant:host' => 'Vertical position (U) of %1$s in %2$s (Must be the bottom position, not top)',
+	'Class/Attribute:position_v+/Variant:host' => 'Vertical position (U) of %1$s in %2$s (必须是底部位置，而非顶部)',
 	'Class/Attribute:position_v+/Variant:device' => 'Vertical position (U) of %1$s in the enclosure (or rack if mounted directly on int). (Must be the bottom position, not top)',
 
 	// Fieldsets
@@ -31,14 +31,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:LocationType/Attribute:name' => '名称',
 	'Class:LocationType/Attribute:name+' => '例如: 国家, 省份, 城市, 建筑, 楼层, 房间, ...',
 	'Class:LocationType/Attribute:locations_list' => '位置',
-	'Class:LocationType/Attribute:locations_list+' => 'List of all locations of this type',
+	'Class:LocationType/Attribute:locations_list+' => '列出所有这类位置',
 	// - Location
 	'Class:Location/Attribute:locationtype_id' => '类型',
-	'Class:Location/Attribute:locationtype_id+' => 'What kind of location is it or what purpose does it have?',
-	'Class:Location/Attribute:parent_id' => 'Parent',
-	'Class:Location/Attribute:parent_id+' => 'Location hosting this one (eg. For a \'room\', should be a \'floor\' or a \'building\')',
-	'Class:Location/Attribute:locations_list' => 'Child locations',
-	'Class:Location/Attribute:locations_list+' => 'List of all locations included in this one',
+	'Class:Location/Attribute:locationtype_id+' => '是那类位置或其目的是什么?',
+	'Class:Location/Attribute:parent_id' => '父级',
+	'Class:Location/Attribute:parent_id+' => '该位置的父级 (例如 对于 \'房间\', 其父级应该为\'楼层\' 或  \'建筑\')',
+	'Class:Location/Attribute:locations_list' => '子级 ？,
+	'Class:Location/Attribute:locations_list+' => '列出所有下属的位置',
 	// - PhysicalDevice (default entries for custom classes)
 	'Class:PhysicalDevice/Attribute:nb_u' => sprintf($aMolkobainThesaurus['Class/Attribute:nb_u']),
 	'Class:PhysicalDevice/Attribute:nb_u+' => sprintf($aMolkobainThesaurus['Class/Attribute:nb_u+'], 'the element'),
