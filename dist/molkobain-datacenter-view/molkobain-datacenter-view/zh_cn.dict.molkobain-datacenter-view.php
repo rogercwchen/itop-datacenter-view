@@ -12,10 +12,10 @@ if(!isset($aMolkobainThesaurus)) $aMolkobainThesaurus = [];
 $aMolkobainThesaurus = array_merge($aMolkobainThesaurus, [
 	// Datamodel
 	'Class/Attribute:nb_u' => '高度',
-	'Class/Attribute:nb_u+' => 'Height in units (U) of %1$s',
+	'Class/Attribute:nb_u+' => '%1$s的高度以U为单位',
 	'Class/Attribute:position_v' => '位置',
-	'Class/Attribute:position_v+/Variant:host' => 'Vertical position (U) of %1$s in %2$s (必须是底部位置，而非顶部)',
-	'Class/Attribute:position_v+/Variant:device' => 'Vertical position (U) of %1$s in the enclosure (or rack if mounted directly on int). (Must be the bottom position, not top)',
+	'Class/Attribute:position_v+/Variant:host' => '%1$s在%2$s中的垂直位置(U) (必须是底部位置，而非顶部)',
+	'Class/Attribute:position_v+/Variant:device' => '%1$s在机位中的垂直位置(U) (或者机柜，如果直接上架的话). (必须是底部位置，而非顶部)',
 
 	// Fieldsets
 	'Fieldset:baseinfo' => '一般信息',
